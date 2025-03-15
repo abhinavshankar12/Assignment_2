@@ -37,7 +37,7 @@ function reverseStringFromInput() {
 
 
 
-////////////////////////////////////////////////////////////
+/*******************************/
 
 // Check if a series of numbers is a palindrome
 
@@ -85,7 +85,7 @@ function isPalindromeFromInput() {
     }
   }
 
-////////////////////////////////////////////////////////////
+/*******************************/
 
 // Program to calculate total bill with tip
 
@@ -124,5 +124,5 @@ function calculateBillWithTipFromInput() {
     "<br>Total bill: $" + totalBill;
 }
 
-////////////////////////////////////////////////////////////
+/*******************************/
 
