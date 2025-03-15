@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="section">
+        <h3>Reverse String</h3>
+        <p>Enter a string to reverse:</p>
+        <input type="text" id="stringInput">
+        <button onclick="reverseStringFromInput()">Reverse String</button>
+        <div id="reverseResult" class="result"></div>
+    </div>
+    
+    <div class="section">
+        <h3>Check Palindrome</h3>
+        <p>Enter a series of numbers to check if it's a palindrome:</p>
+        <input type="text" id="palindromeInput">
+        <button onclick="isPalindromeFromInput()">Check Palindrome</button>
+        <div id="palindromeResult" class="result"></div>
+    </div>
+    
+    <div class="section">
+        <h3>Calculate Bill with Tip</h3>
+        <p>Calculate your total bill with tip:</p>
+        <input type="number" id="subtotalInput">
+        <input type="number" id="tipPercentageInput">
+        <button onclick="calculateBillWithTipFromInput()">Calculate Bill with Tip</button>
+        <div id="tipResult" class="result"></div>
+    </div>
+</body>
+</html>
